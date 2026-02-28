@@ -18,7 +18,7 @@ spring:
             - Path=/orders/**
 
         - id: payment-service
-          uri: http://payment-services:8083
+          uri: http://payment-service:8083
           predicates:
             - Path=/payments/**
 
