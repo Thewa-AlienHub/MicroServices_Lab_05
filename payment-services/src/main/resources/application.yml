@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: payment-service
+
+server:
+  servlet:
+    context-path: /api/payment-service
+  port: 8083
